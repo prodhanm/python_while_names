@@ -12,7 +12,7 @@ def name_li(name_loop, names):
     return names
         
 def main():
-    for index, name in enumerate(name_li(name_loop,names)):
+    for index, name in enumerate(name_li(name_loop,names), 1):
         print(f"{index}. {name}")
 
 if __name__ == "__main__":
