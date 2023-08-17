@@ -14,19 +14,19 @@ In this exercise, we want to create a family dictionary. Each key represents, a 
 The family relationship can then be tied to the name of one of the options. Each time, a relatinship is added, a name has to be added. Once that is done and one has completed their family dictionary listings, the following dictionary is created:
 
             family = {
-                'father': 'Mustafa', 
-                'mother': 'Sabina', 
-                'son': 'Nuaym', 
-                'sister': 'Sabrina', 
-                'Grandfather': 'Mizan', 
-                'Grandmother': 'Sultana'
+                'father': 'name', 
+                'mother': 'name', 
+                'son': 'name', 
+                'sister': 'name', 
+                'Grandfather': 'name', 
+                'Grandmother': 'name'
             }
 
 Once this dictionary is created, the main() then calls the name_li(fmaily) to proceed with a dictionary for loop. The loop organizes, the family relationship to their names as such:
 
-                father: Mustafa 
-                mother: Sabina 
-                son: Nuaym 
-                sister: Sabrina 
-                Grandfather: Mizan 
-                Grandmother: Sultana
+                father: name 
+                mother: name 
+                son: name 
+                sister: name 
+                Grandfather: name 
+                Grandmother: name
