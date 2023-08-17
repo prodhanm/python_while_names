@@ -12,9 +12,9 @@ def name_li(family):
     return family
         
 def main():
-    #for index, name in enumerate(name_li(names), 1):
-    #    print(f"{index}. {name}")
-    print(name_li(family))
+    for family_rel, name in name_li(family).items():
+        print(f"{family_rel}: {name}")
+    #print(name_li(family))
 
 if __name__ == "__main__":
     main()
